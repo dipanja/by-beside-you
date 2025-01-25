@@ -17,7 +17,7 @@ const duplicatedImages = [...heroImages, ...heroImages, ...heroImages];
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen overflow-hidden bg-gray-900">
+    <div className="relative h-[480px] overflow-hidden bg-gray-900">
       <div className="absolute inset-0 z-0">
         <motion.div
           className="flex gap-4 p-4"

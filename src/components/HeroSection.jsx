@@ -11,6 +11,7 @@ const heroImages = [
   "/team-imags/abhishek-sarkar.jpeg",
   "/team-imags/ranjit-jha.jpeg",
   "/team-imags/saikat-de-bhaumik.jpeg",
+  "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6",
 ];
 const duplicatedImages = [...heroImages, ...heroImages, ...heroImages];
 

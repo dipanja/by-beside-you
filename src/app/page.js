@@ -1,3 +1,8 @@
+import HeroSection from "@/components/HeroSection";
 export default function Home() {
-  return <div>By Beside You</div>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 }

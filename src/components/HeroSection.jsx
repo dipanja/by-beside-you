@@ -1,4 +1,6 @@
-import * as motion from "motion/react-client";
+"use client";
+// import * as motion from "motion/react-client";
+import { motion } from "motion/react";
 import Image from "next/image";
 
 const heroImages = [

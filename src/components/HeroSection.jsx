@@ -1,6 +1,6 @@
-"use client";
-// import * as motion from "motion/react-client";
-import { motion } from "motion/react";
+// "use client";
+import * as motion from "motion/react-client";
+// import { motion } from "motion/react";
 import Image from "next/image";
 
 const heroImages = [
@@ -17,7 +17,7 @@ const duplicatedImages = [...heroImages, ...heroImages, ...heroImages];
 
 const HeroSection = () => {
   return (
-    <div className="relative h-[480px] overflow-hidden bg-gray-900">
+    <div className="relative h-[500px] overflow-hidden bg-gray-900">
       <div className="absolute inset-0 z-0">
         <motion.div
           className="flex gap-4 p-4"
@@ -33,6 +33,7 @@ const HeroSection = () => {
         >
           {duplicatedImages.map((image, index) => (
             <Image
+              unoptimized // just for now
               key={index}
               src={image}
               alt={`Remote aid ${index + 1}`}

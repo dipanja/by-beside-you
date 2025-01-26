@@ -5,14 +5,13 @@ import Image from "next/image";
 
 const heroImages = [
   "https://storage.googleapis.com/pase-achi/team-images/abhidip-hazra.jpeg",
-  // "/team-imags/abhidip-hazra.jpeg",
-  // "/team-imags/arindam-basu.jpeg",
-  // "/team-imags/anup-kumar-ghosh.jpeg",
-  // "/team-imags/avhijit-baruri.jpeg",
-  // "/team-imags/abhishek-sarkar.jpeg",
-  // "/team-imags/ranjit-jha.jpeg",
-  // "/team-imags/saikat-de-bhaumik.jpeg",
-  "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6",
+  "https://storage.googleapis.com/pase-achi/team-imags/abhidip-hazra.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/arindam-basu.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/anup-kumar-ghosh.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/avhijit-baruri.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/abhishek-sarkar.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/ranjit-jha.jpeg",
+  "https://storage.googleapis.com/pase-achi/team-imags/saikat-de-bhaumik.jpeg",
 ];
 const duplicatedImages = [...heroImages, ...heroImages, ...heroImages];
 

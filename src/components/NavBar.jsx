@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-white shadow-lg p-2 fixed top-0 left-0 w-full z-50 backdrop-blur-sm">
+    <nav className="bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-xl font-bold text-blue-600">

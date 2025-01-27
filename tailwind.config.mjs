@@ -11,6 +11,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: { geistsans: [`var(--font-geist-sans)`] },
     },
   },
   plugins: [],

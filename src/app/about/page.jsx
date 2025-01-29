@@ -1,16 +1,15 @@
-import { teamMembers } from "../data/team-member";
 import { teamMembers } from "@/data/team-member";
 import TeamMember from "@/components/TeamMember";
 
 const AboutPage = async () => {
   return (
-    <div className="min-h-screen bg-gray-100 bg-gradient-to-r from-transparent to-gray-200">
-      <div className="container mx-auto px-4 py-16">
+    <div className="min-h-screen bg-gray-100 bg-gradient-to-r from-transparent to-gray-200 ">
+      <div className="container mx-auto px-4 py-16 md:w-3/4">
         <h1 className="text-3xl font-bold text-center mb-8 text-black font-geistsans">
           Our Team
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {teamMembers.map((member) => (
             <TeamMember key={member.id} member={member} />
           ))}

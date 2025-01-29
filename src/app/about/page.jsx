@@ -1,4 +1,5 @@
 import { teamMembers } from "../data/team-member";
+import { teamMembers } from "@/data/team-member";
 import TeamMember from "@/components/TeamMember";
 
 const AboutPage = async () => {

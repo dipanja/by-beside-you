@@ -2,7 +2,7 @@ export const teamMembers = [
   {
     id: 1,
     name: "Anup Kumar Ghosh",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/anup-kumar-ghosh.jpeg",
     bio: "Asstt. Teacher, Alipurduar High School (H.S.)",
@@ -11,7 +11,7 @@ export const teamMembers = [
   {
     id: 2,
     name: "Abhidip Hazra",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/abhidip-hazra.jpeg",
     bio: "Asstt. Teacher, Union Academy Kalchini",
@@ -20,7 +20,7 @@ export const teamMembers = [
   {
     id: 3,
     name: "Arindam Basu ",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/arindam-basu.jpeg",
     bio: "Asst. Teacher Punam Chand Mittal Memorial High School",
@@ -29,7 +29,7 @@ export const teamMembers = [
   {
     id: 4,
     name: "Saikat De Bhaumik",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/saikat-de-bhaumik.jpeg",
     bio: "Asstt. Teacher Sonapur B.K.High School (H.S.)",
@@ -38,7 +38,7 @@ export const teamMembers = [
   {
     id: 5,
     name: "Avijit Baruri",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/avhijit-baruri.jpeg",
     bio: "Asstt. Teacher Union Academy Kalchini",
@@ -47,7 +47,7 @@ export const teamMembers = [
   {
     id: 6,
     name: "Ranjit Jha",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/ranjit-jha.jpeg",
     bio: "Chairman, Boon English School",
@@ -56,7 +56,7 @@ export const teamMembers = [
   {
     id: 7,
     name: "Abhishek Sarkar",
-    role: "Member",
+    role: "Founder",
     image:
       "https://storage.googleapis.com/pase-achi/team-images/abhishek-sarkar.jpeg",
     bio: "Asstt. Teacher Hamiltonganj High School (H.S.)",

@@ -62,7 +62,8 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div
         className={clsx(
-          "absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center space-y-4 py-4 transition-all duration-300 md:hidden",
+          "absolute top-full right-0  w-1/2  bg-white shadow-md flex flex-col items-center space-y-4 py-4 transition-all duration-300 md:hidden",
+          { "translate-x-0": isMenuOpen, "translate-x-full": !isMenuOpen },
           { hidden: !isMenuOpen },
         )}
       >
@@ -70,7 +71,12 @@ const Navbar = () => {
           <Link
             key={href}
             href={href}
-            className="text-gray-600"
+            className={clsx(
+              "px-3 py-2 rounded-md transition w-full text-center",
+              pathname === href
+                ? "bg-blue-100 text-blue-600"
+                : "hover:bg-gray-50 text-gray-600",
+            )}
             onClick={toggleMenu}
           >
             {label}

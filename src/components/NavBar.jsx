@@ -72,10 +72,8 @@ const Navbar = () => {
             key={href}
             href={href}
             className={clsx(
-              "px-3 py-2 rounded-md transition w-full text-center",
-              pathname === href
-                ? "bg-blue-100 text-blue-600"
-                : "hover:bg-gray-50 text-gray-600",
+              "px-3 py-2 rounded-md transition text-center",
+              pathname === href ? "bg-blue-100 text-blue-600" : "text-black",
             )}
             onClick={toggleMenu}
           >
